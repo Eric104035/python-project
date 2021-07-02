@@ -1,0 +1,6 @@
+for q in range(0,5):
+    i = int(input('please enter a number:'))
+    if i % 2 == 1:
+        print('odd number')
+    else:
+        print('even number')
