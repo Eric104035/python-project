@@ -1,0 +1,2 @@
+a = int(input('please enter the price:'))
+print('在費率 10% 的狀況下,小費為',0.1*a,'總金額',1.1*a)
