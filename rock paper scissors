@@ -1,0 +1,17 @@
+for i in range(0,5):
+    player1 = (input("player1 please choose paper, scissors or stone:"))
+    player2 = (input("player2 please choose paper, scissors or stone:"))
+    if player1 == player2:
+        print('equal')
+    elif (player1 == ('paper'), player2 == ('stone')):
+        print('player1 win')
+    elif (player1 == ('stone'), player2 == ('scissors')):
+        print('player1 win')
+    elif (player1 == ('scissors'), player2 == ('paper')):
+        print('player1 win')
+    elif (player2 == ('paper'), player1 == ('stone')):
+        print('player2 win')
+    elif (player2 == ('stone'), player1 == ('scissors')):
+        print('player2 win')
+    elif (player2 == ('scissors'), player1 == ('paper')):
+        print('player2 win')
