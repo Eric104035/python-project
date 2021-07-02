@@ -1,0 +1,6 @@
+noun1 = (input('enter a noun:'))
+noun2 = (input('enter another noun:'))
+adj1 =  (input('enter a adj:'))
+adj2 = (input('enter another adj:'))
+print(noun1,"is so pretty")
+print(noun2,"is very", adj1, "and", adj2)
